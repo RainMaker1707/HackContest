@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74f511e-363f-4f53-bf5b-8fdd8e08b92a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Script/pwd_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/pwd_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/pwd_generator_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/pwd_generator_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,16 +12,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Script/pwd_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -38,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/pwd_generator_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="270">
+              <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -70,9 +68,9 @@
         <option value="$PROJECT_DIR$/Tools/pdf_pbf_tool.py" />
         <option value="$PROJECT_DIR$/Script/pdf_password_brutforce.py" />
         <option value="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" />
-        <option value="$PROJECT_DIR$/Script/pwd_generator.py" />
-        <option value="$PROJECT_DIR$/Tests/pwd_generator_test.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Tests/pwd_generator_test.py" />
+        <option value="$PROJECT_DIR$/Script/pwd_generator.py" />
       </list>
     </option>
   </component>
@@ -93,6 +91,11 @@
             <path>
               <item name="HackContest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackContest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackContest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackContest" type="462c0819:PsiDirectoryNode" />
+              <item name="Res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HackContest" type="b2602c69:ProjectViewProjectNode" />
@@ -240,12 +243,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_pwd_generator_test_TestPasswordGenerator_testPasswordSize - 2020.02.05 at 22h 53m 01s.xml">
-      <configuration name="Unittests for pwd_generator_test.TestPasswordGenerator.testPasswordSize" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pwd_generator_test_TestPasswordGenerator_testPasswordPattern - 2020.02.05 at 23h 00m 01s.xml">
-      <configuration name="Unittests for pwd_generator_test.TestPasswordGenerator.testPasswordPattern" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_pwd_generator_test_TestPasswordGenerator_testPasswordPattern - 2020.02.05 at 23h 00m 40s.xml">
       <configuration name="Unittests for pwd_generator_test.TestPasswordGenerator.testPasswordPattern" configurationId="tests" />
     </history-entry>
@@ -270,13 +267,19 @@
     <history-entry file="Unittests_for_pwd_generator_test_TestPasswordGenerator - 2020.02.06 at 00h 11m 19s.xml">
       <configuration name="Unittests for pwd_generator_test.TestPasswordGenerator" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_pwd_generator_test_TestPasswordGenerator - 2020.02.06 at 00h 16m 35s.xml">
+      <configuration name="Unittests for pwd_generator_test.TestPasswordGenerator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pwd_generator_test_TestPasswordGenerator - 2020.02.06 at 00h 23m 39s.xml">
+      <configuration name="Unittests for pwd_generator_test.TestPasswordGenerator" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32974428" />
       <window_info anchor="bottom" id="Python Console" weight="0.32974428" />
@@ -300,23 +303,6 @@
     <entry file="file://$PROJECT_DIR$/Tools/pdf_brutforce.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/pwd_generator_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Script/pwd_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -324,6 +310,26 @@
             <caret column="28" selection-start-column="28" selection-end-column="28" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/pwd_generator_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/temp_dic.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/pwd_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>

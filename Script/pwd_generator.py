@@ -27,6 +27,9 @@ class PwdGenerator:
         else:
             return "Not yet generated"
 
+    def get_symb_list(self):
+        return self.__abc
+
     def set_size(self, new_size):
         """
         :param new_size: int >= 0
@@ -53,3 +56,11 @@ class PwdGenerator:
             self.pwd = ""
             self.generated = False
             self.generate()
+
+    def gen_pwd_file(self, max_len):
+        """
+        :param max_len: int maximum password length
+        create a dictionary with all possibilities of password in a gave length or less
+        """
+        # TODO
+        return
