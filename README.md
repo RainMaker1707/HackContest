@@ -5,8 +5,11 @@ In the fact of a hacking championship I decided to create
 these suit of tools which should help to force some password.
 
 #PDF Password BrutForce
+
 ##PasswordGenerator
+
 ###Generate
+
 First one I decided to program a simple password generator.
 It is designed for a pdf password brutforce.
 
@@ -23,7 +26,9 @@ pwd = pwd_generator.PwdGenerator(10)
 pwd.generate()
 
 Don't forget to generate it! Until the password is not generated the variable password is equal to a null string like "" and you can't access it with the 'legal' way.
+
 ###Pattern
+
 You can choose a pattern for the password generation if u want any pattern it simply pass an arguments more in the creation of the object.
 
 You'll can change the pattern of the password after generation with the function set_pattern(new_pattern) which take a string or None as argument.
