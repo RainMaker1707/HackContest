@@ -8,7 +8,7 @@ class PwdGenerator:
              'V', 'W', 'X', 'Y', 'Z']
 
     def __init__(self, size):
-        if size > 0:
+        if size >= 0:
             self.size = size
         else:
             self.size = 1
@@ -29,9 +29,3 @@ class PwdGenerator:
         for i in range(self.size):
             self.pwd += self.__abc[randint(0, 61)]
         self.generated = True
-
-
-pwd = PwdGenerator(10)
-print(pwd)
-pwd.generate()
-print(pwd)

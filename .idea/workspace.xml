@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74f511e-363f-4f53-bf5b-8fdd8e08b92a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/HackContest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Script/pdf_password_brutforce.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tools/pdf_pbf_tool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Script/niania.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/pdf_password_brutforce.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/pwd_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,20 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Script/pdf_password_brutforce.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Script/pwd_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="361">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +57,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Tools/pdf_pbf_tool.py" />
-        <option value="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" />
         <option value="$PROJECT_DIR$/Script/pdf_password_brutforce.py" />
+        <option value="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" />
+        <option value="$PROJECT_DIR$/Script/pwd_generator.py" />
       </list>
     </option>
   </component>
@@ -81,6 +81,11 @@
               <item name="HackContest" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackContest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HackContest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackContest" type="462c0819:PsiDirectoryNode" />
+              <item name="Script" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -101,6 +106,12 @@
       </console-settings>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Script" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -113,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize">
     <configuration name="pdf_password_brutforce" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HackContest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Script/pdf_password_brutforce.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Script/pwd_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,8 +146,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HackContest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pdf_pwd_bf_tests.TestPasswordGenerator&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HackContest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" />
+        <item itemvalue="Python tests.Unittests for pdf_pwd_bf_tests.TestPasswordGenerator" />
         <item itemvalue="Python.pdf_password_brutforce" />
       </list>
     </recent_temporary>
@@ -183,17 +224,20 @@
     <entry file="file://$PROJECT_DIR$/Tools/pdf_pbf_tool.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py">
+    <entry file="file://$PROJECT_DIR$/Script/pwd_generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        <state relative-caret-position="361">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/pdf_password_brutforce.py">
+    <entry file="file://$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
