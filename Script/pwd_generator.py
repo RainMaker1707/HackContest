@@ -10,7 +10,7 @@ class PwdGenerator:
     def __init__(self, size=0, pattern=None):
         """
         :param size: int >= 0 define the len of the password
-        :param pattern: string like "$$$$-$$$$$" for a password like "super-heros"
+        :param pattern: string like "$$$$-$$$$" for a password like "super-hero"
 
         """
         if size >= 0:
@@ -28,25 +28,25 @@ class PwdGenerator:
             return "Not yet generated"
 
     def set_size(self, new_size):
-        if new_size > 0:
+        if new_size > 0 and self.pattern is None:
             self.size = new_size
+            self.generate()
 
     def generate(self):
-        if self.pattern is None:
-            for i in range(self.size):
-                self.pwd += self.__abc[randint(0, 70)]
+        if not self.generated:
+            if self.pattern is None:
+                for i in range(self.size):
+                    self.pwd += self.__abc[randint(0, len(self.__abc) - 1)]
+            else:
+                for char in self.pattern:
+                    if char == '$':
+                        self.pwd += self.__abc[randint(0, len(self.__abc) - 1)]
+                    else:
+                        self.pwd += char
+                if len(self.pwd) != self.size:
+                    self.size = len(self.pwd)
+            self.generated = True
         else:
-            for char in self.pattern:
-                if char == '$':
-                    self.pwd += self.__abc[randint(0, 70)]
-                else:
-                    self.pwd += char
-            if len(self.pwd) != self.size:
-                self.size = len(self.pwd)
-        self.generated = True
-
-
-pwd = PwdGenerator(10, "$$$$-$$$-$$$$")
-pwd.generate()
-print(pwd)
-print(pwd.size)
+            self.pwd = ""
+            self.generated = False
+            self.generate()

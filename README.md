@@ -27,6 +27,11 @@ pwd.generate()
 
 Don't forget to generate it! Until the password is not generated the variable password is equal to a null string like "" and you can't access it with the 'legal' way.
 
+###set_size particularity
+
+You'll can't change the size if you use a pattern, you'll have to set the pattern to None before set the size.
+Second particularity if u decide to set the size the whole password will change because it is generated again without any pattern.
+
 ###Pattern
 
 You can choose a pattern for the password generation if u want any pattern it simply pass an arguments more in the creation of the object.
