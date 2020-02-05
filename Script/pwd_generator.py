@@ -28,7 +28,10 @@ class PwdGenerator:
             return "Not yet generated"
 
     def set_size(self, new_size):
-        if new_size > 0 and self.pattern is None:
+        """
+        :param new_size: int >= 0
+        """
+        if new_size >= 0 and self.pattern is None:
             self.size = new_size
             self.generate()
 

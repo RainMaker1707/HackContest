@@ -4,6 +4,7 @@ import unittest
 
 
 class TestPasswordGenerator(unittest.TestCase):
+
     def testPasswordSize(self):
         for i in range(300):
             size = r_int(0, r_int(20, 300))
@@ -12,7 +13,7 @@ class TestPasswordGenerator(unittest.TestCase):
             self.assertEqual(size, pwd.size, "Fail on test: " + str(i))
 
     def testPasswordPattern(self):
-        char_list = ['.', '-', '_', '?', '!', '$']
+        char_list = ['.', '$', '-', '$', '_', '$', '?', '$', '!', '$']
         for i in range(300):
             pattern = ""
             for j in range(r_int(0, 20)):

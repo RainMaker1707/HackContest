@@ -1,4 +1,4 @@
-# HackContest
+# HackContest !!INBUILDING!!
 Some Tools for the UCL Hack Contest.
 
 In the fact of a hacking championship I decided to create 
@@ -27,6 +27,8 @@ pwd.generate()
 
 Don't forget to generate it! Until the password is not generated the variable password is equal to a null string like "" and you can't access it with the 'legal' way.
 
+Size 0 = No password.
+
 ###set_size particularity
 
 You'll can't change the size if you use a pattern, you'll have to set the pattern to None before set the size.
@@ -39,5 +41,5 @@ You can choose a pattern for the password generation if u want any pattern it si
 You'll can change the pattern of the password after generation with the function set_pattern(new_pattern) which take a string or None as argument.
 
 The pattern structure is "$$$$-$$$"
-So symbol $ can be replaced by any other characters in the generator list but all others characters than $ stay at his place.
+So symbol $ can be replaced by any other characters in the generator list but all others characters stay at its place.
 If you use a pattern with a different len than the size passed as argument in the creation of the generator the pattern len will define the password size.
