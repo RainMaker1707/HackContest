@@ -5,7 +5,7 @@ class PwdGenerator:
     __abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's',
              't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
              'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U',
-             'V', 'W', 'X', 'Y', 'Z']
+             'V', 'W', 'X', 'Y', 'Z', '-', '_', '*', '^', '=', '+', '.', '?', '!']
 
     def __init__(self, size):
         if size >= 0:
@@ -27,5 +27,10 @@ class PwdGenerator:
 
     def generate(self):
         for i in range(self.size):
-            self.pwd += self.__abc[randint(0, 61)]
+            self.pwd += self.__abc[randint(0, 70)]
         self.generated = True
+
+pwd = PwdGenerator(10)
+print(pwd)
+pwd.generate()
+print(pwd)

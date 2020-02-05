@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f74f511e-363f-4f53-bf5b-8fdd8e08b92a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Script/niania.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Script/pdf_password_brutforce.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/pwd_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Script/pwd_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Script/pwd_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/pwd_generator_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Script/pwd_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="348">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/pwd_generator_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="11" column="71" lean-forward="true" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -86,6 +84,11 @@
               <item name="HackContest" type="462c0819:PsiDirectoryNode" />
               <item name="Script" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HackContest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackContest" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -124,7 +127,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize">
+  <component name="RunManager" selected="Python.pdf_password_brutforce">
     <configuration name="pdf_password_brutforce" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HackContest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -146,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Tests.pwd_generator_test.TestPasswordGenerator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HackContest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +159,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pdf_pwd_bf_tests.TestPasswordGenerator&quot;" />
+      <option name="_new_target" value="&quot;Tests.pwd_generator_test.TestPasswordGenerator&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Tests.pwd_generator_test.TestPasswordGenerator.testPasswordSize" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HackContest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,15 +173,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize&quot;" />
+      <option name="_new_target" value="&quot;Tests.pwd_generator_test.TestPasswordGenerator.testPasswordSize&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for pwd_generator_test.TestPasswordGenerator" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HackContest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pwd_generator_test.TestPasswordGenerator&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" />
-        <item itemvalue="Python tests.Unittests for pdf_pwd_bf_tests.TestPasswordGenerator" />
         <item itemvalue="Python.pdf_password_brutforce" />
+        <item itemvalue="Python tests.Unittests for pwd_generator_test.TestPasswordGenerator" />
+        <item itemvalue="Python tests.Unittests for Tests.pwd_generator_test.TestPasswordGenerator.testPasswordSize" />
+        <item itemvalue="Python tests.Unittests for Tests.pwd_generator_test.TestPasswordGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +212,35 @@
       <updated>1580931557008</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_pdf_pwd_bf_tests_TestPasswordGenerator - 2020.02.05 at 21h 40m 24s.xml">
+      <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pdf_pwd_bf_tests_TestPasswordGenerator - 2020.02.05 at 21h 41m 13s.xml">
+      <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pdf_pwd_bf_tests_TestPasswordGenerator_testPasswordSize - 2020.02.05 at 21h 42m 18s.xml">
+      <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pdf_pwd_bf_tests_TestPasswordGenerator_testPasswordSize - 2020.02.05 at 21h 42m 44s.xml">
+      <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pdf_pwd_bf_tests_TestPasswordGenerator_testPasswordSize - 2020.02.05 at 21h 42m 52s.xml">
+      <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pdf_pwd_bf_tests_TestPasswordGenerator_testPasswordSize - 2020.02.05 at 21h 43m 04s.xml">
+      <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pdf_pwd_bf_tests_TestPasswordGenerator_testPasswordSize - 2020.02.05 at 21h 43m 18s.xml">
+      <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pdf_pwd_bf_tests_TestPasswordGenerator_testPasswordSize - 2020.02.05 at 21h 43m 43s.xml">
+      <configuration name="Unittests for pdf_pwd_bf_tests.TestPasswordGenerator.testPasswordSize" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pwd_generator_test_TestPasswordGenerator - 2020.02.05 at 21h 46m 54s.xml">
+      <configuration name="Unittests for pwd_generator_test.TestPasswordGenerator" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
@@ -224,20 +271,20 @@
     <entry file="file://$PROJECT_DIR$/Tools/pdf_pbf_tool.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Script/pwd_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/pdf_pwd_bf_tests.py">
+    <entry file="file://$PROJECT_DIR$/Tests/pwd_generator_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="11" column="71" lean-forward="true" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Script/pwd_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
         </state>
       </provider>
     </entry>
