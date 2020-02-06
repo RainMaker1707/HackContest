@@ -27,7 +27,7 @@ class PwdGenerator:
         else:
             return "Not yet generated"
 
-    def get_symb_list(self):
+    def get_symbol_list(self):
         return self.__abc
 
     def set_size(self, new_size):
